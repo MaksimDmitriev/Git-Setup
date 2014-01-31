@@ -1,0 +1,22 @@
+#!/bin/bash
+
+HGRC=$HOME/.hgrc
+echo "[ui]" > $HGRC
+echo "username = Maksim Dmitriev <maksim.a.dmitriev@gmail.com>" >> $HGRC
+echo "ignore = ~/.hgignore_global" >> $HGRC
+echo "" >> $HGRC
+
+echo "[extensions]" >> $HGRC
+echo "color =" >> $HGRC
+echo >> $HGRC
+
+echo "[color]" >> $HGRC
+echo "status.modified = magenta bold" >> $HGRC
+echo "status.added = green bold" >> $HGRC
+echo "status.removed = red bold" >> $HGRC
+echo "status.deleted = cyan bold" >> $HGRC
+echo "status.unknown = blue bold" >> $HGRC
+echo "status.ignored = black bold" >> $HGRC
+echo >> $HGRC
+
+echo "Please add patterns to ~/.hg_ignore manually"

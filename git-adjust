@@ -1,0 +1,23 @@
+#!/bin/bash 
+git config --global color.ui true;
+git config --global alias.last 'log -1';
+git config --global user.name 'Maksim Dmitriev';
+git config --global user.email maksim.a.dmitriev@gmail.com;
+
+# Archive the last snapshot
+git config --global alias.last-archive '!sh git-last-archive';
+
+# Aliases for submodules
+git config --global alias.sdiff 'submodule foreach git diff';
+git config --global alias.sbranch 'submodule foreach git branch';
+git config --global alias.subst 'submodule foreach git status';
+git config --global alias.spush 'submodule foreach git push';
+git config --global alias.scheckout 'submodule foreach git checkout';
+git config --global alias.sad 'submodule foreach git add -A';
+# TODO: Test it and then uncomment. git config --global alias.scommit 'submodule foreach git commit';
+
+# Creating a .gitignore file
+git config --global core.excludesfile ~/.gitignore_global;
+
+echo "Please add patterns to ~/.gitignore_global manually"
+

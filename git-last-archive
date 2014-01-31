@@ -1,0 +1,4 @@
+#!/bin/sh
+CURRENT_DIR=${PWD##*/}
+
+git archive -o $CURRENT_DIR-`git log --pretty='%h' -1`.zip HEAD

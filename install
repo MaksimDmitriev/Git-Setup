@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp -v {git,hg}-adjust ~/bin ;
+cp -v git-last-archive ~/bin ;
+cp -v .global_gitignore ~/ ;
+git-adjust ;
+hg-adjust ;
