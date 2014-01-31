@@ -14,10 +14,10 @@ git config --global alias.subst 'submodule foreach git status';
 git config --global alias.spush 'submodule foreach git push';
 git config --global alias.scheckout 'submodule foreach git checkout';
 git config --global alias.sad 'submodule foreach git add -A';
-# TODO: Test it and then uncomment. git config --global alias.scommit 'submodule foreach git commit';
 
 # Creating a .gitignore file
-git config --global core.excludesfile ~/.gitignore_global;
+echo "Ignore $GIT_IGNORE"
+git config --global core.excludesfile $GIT_IGNORE;
 
 echo "Please add patterns to ~/.gitignore_global manually"
 

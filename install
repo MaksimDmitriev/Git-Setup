@@ -1,10 +1,16 @@
 #!/bin/sh
 
-cp -v git-adjust ~/bin ;
+GIT_IGNORE=~/.global_gitignore;
+export GIT_IGNORE
+
+mkdir -p ~/bin && 
+
+{ cp -v git-adjust ~/bi2n ;
 cp -v hg-adjust ~/bin ;
 cp -v git-last-archive ~/bin ;
-cp -v .global_gitignore ~/ ;
+cp -v .global_gitignore $GIT_IGNORE ;
 
 echo ;
 git-adjust ;
 hg-adjust ;
+}
