@@ -5,7 +5,7 @@ export GIT_IGNORE
 
 mkdir -p ~/bin && 
 
-{ cp -v git-adjust ~/bi2n ;
+{ cp -v git-adjust ~/bin/git-adjust ;
 cp -v hg-adjust ~/bin ;
 cp -v git-last-archive ~/bin ;
 cp -v .global_gitignore $GIT_IGNORE ;
