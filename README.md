@@ -1,2 +1,2 @@
-Git-Setup
+Git Setup
 =========
