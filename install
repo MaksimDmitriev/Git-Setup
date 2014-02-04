@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Update the Android gitignore file
+wget -O Android.gitignore https://raw2.github.com/github/gitignore/master/Android.gitignore
+echo "Use Android.gitignore for Android projects"
+
 GIT_IGNORE=~/.global_gitignore;
 export GIT_IGNORE
 

@@ -18,8 +18,6 @@ git config --global alias.scommit 'submodule foreach git commit';
 git config --global alias.spull 'submodule foreach git pull';
 
 # Creating a .gitignore file
-echo "Ignore $GIT_IGNORE"
 git config --global core.excludesfile $GIT_IGNORE;
 
-echo "Please add patterns to ~/.gitignore_global manually"
 
