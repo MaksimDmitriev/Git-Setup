@@ -3,7 +3,7 @@
 HGRC=$HOME/.hgrc
 echo "[ui]" > $HGRC
 echo "username = Maksim Dmitriev <maksim.a.dmitriev@gmail.com>" >> $HGRC
-echo "ignore = ~/.hgignore_global" >> $HGRC
+echo "ignore = ~/$HG_IGNORE" >> $HGRC
 echo "" >> $HGRC
 
 echo "[extensions]" >> $HGRC

@@ -1,20 +1,24 @@
 #!/bin/sh
 
-# Update the Android gitignore file
-wget -O Android.gitignore https://raw2.github.com/github/gitignore/master/Android.gitignore
-echo "Use Android.gitignore for Android projects"
+# TODO: the user name and the e-mail as variables.
 
-GIT_IGNORE=~/.global_gitignore;
+GIT_IGNORE=.global_gitignore
+HG_IGNORE=.global_hgignore
 export GIT_IGNORE
+export HG_IGNORE
 
 mkdir -p ~/bin && 
 
 { cp -v git-adjust ~/bin/git-adjust ;
 cp -v hg-adjust ~/bin ;
 cp -v git-last-archive ~/bin ;
-cp -v .global_gitignore $GIT_IGNORE ;
-
+cp -v $GIT_IGNORE ~/$GIT_IGNORE ;
+cp -v $HG_IGNORE ~/$HG_IGNORE ;
 echo ;
 git-adjust ;
 hg-adjust ;
 }
+
+# Update the Android gitignore file
+wget -O Android.gitignore https://raw2.github.com/github/gitignore/master/Android.gitignore
+echo "Use Android.gitignore for Android projects"
