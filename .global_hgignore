@@ -35,3 +35,8 @@ syntax: glob
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+######################
+Mercurial orig files
+*.orig
+
