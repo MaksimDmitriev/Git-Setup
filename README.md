@@ -8,3 +8,7 @@ This repository contains scripts that
 #### How to use
 
 Clone and run the `install` excutable file.
+
+#### TODO
+* Android Studio wrapper ignore file
+* Put *.iml to the wrapper ignore file or to Android.hgignore
