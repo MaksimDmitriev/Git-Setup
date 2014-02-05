@@ -13,5 +13,5 @@ Clone and run the `install` excutable file.
 
 #### TODO
 * Android Studio wrapper ignore file
-* Put *.iml to the wrapper ignore file or to Android.hgignore. It depends on the logic of subrepos
+* Check if *.iml should be in the wrapper ignore file. Perhaps it should be in Android.hgignore. It depends on the logic of subrepos
 * User name and e-mail should be variables.
