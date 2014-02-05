@@ -1,0 +1,37 @@
+
+# .gradle/
+# .idea/
+*.iml
+local.properties
+
+
+syntax: regexp
+^\.gradle$
+
+# Compiled modules
+syntax: regexp
+.+\/build\/.*
+
+# Local configuration file (sdk path, etc)
+syntax: regexp
+local.properties
+
+# All the files under .idea directory
+syntax: regexp
+^\.idea$
+
+glob:*.iws
+glob:*.iml
+glob:*.ipr
+glob:*.swp
+
+.metadata/
+.gradle/
+.idea/
+*.iml
+local.properties
+
+# .gradle
+# /local.properties
+# /.idea/workspace.xml
+# .DS_Store
