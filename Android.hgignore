@@ -15,6 +15,9 @@ syntax: glob
 # Local configuration file (SDK path, etc)
 local.properties
 
+# *iml files
+*.iml
+
 ###################
 syntax: regexp
 ###################
