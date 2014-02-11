@@ -1,8 +1,8 @@
 #!/bin/bash 
 git config --global color.ui true;
 git config --global alias.last 'log -1';
-git config --global user.name 'Maksim Dmitriev';
-git config --global user.email maksim.a.dmitriev@gmail.com;
+git config --global user.name "$USER_NAME";
+git config --global user.email $USER_EMAIL;
 
 # Archive the last snapshot
 git config --global alias.last-archive '!sh git-last-archive';

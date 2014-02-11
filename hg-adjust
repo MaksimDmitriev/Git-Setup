@@ -2,7 +2,8 @@
 
 HGRC=$HOME/.hgrc
 echo "[ui]" > $HGRC
-echo "username = Maksim Dmitriev <maksim.a.dmitriev@gmail.com>" >> $HGRC
+# echo "username = Maksim Dmitriev <maksim.a.dmitriev@gmail.com>" >> $HGRC
+echo "username = $USER_NAME <$USER_EMAIL>" >> $HGRC
 echo "ignore = ~/$HG_IGNORE" >> $HGRC
 echo "" >> $HGRC
 

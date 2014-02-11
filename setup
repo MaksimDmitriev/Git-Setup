@@ -1,11 +1,14 @@
 #!/bin/sh
 
-# TODO: the user name and the e-mail as variables.
-
 GIT_IGNORE=.global_gitignore
 HG_IGNORE=.global_hgignore
+USER_NAME='Maksim Dmitriev'
+USER_EMAIL=maksim.a.dmitriev@gmail.com
+
 export GIT_IGNORE
 export HG_IGNORE
+export USER_NAME
+export USER_EMAIL
 
 mkdir -p ~/bin && 
 

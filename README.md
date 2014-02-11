@@ -9,8 +9,7 @@ This repository contains scripts that
 
 #### How to use
 
-Clone and run the `install` excutable file.
+Clone and run the `setup` excutable file.
 
 #### TODO
-* User name and e-mail should be variables.
 * `spull` vs `submodule update`
