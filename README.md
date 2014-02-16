@@ -14,3 +14,4 @@ Clone and run the `setup` excutable file.
 
 #### TODO
 * `spull` vs `submodule update`
+* Create an Android Mercurial ignore file by modifying ther received Android.gitignore
