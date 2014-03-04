@@ -14,7 +14,6 @@ git config --global alias.subst 'submodule foreach git status';
 git config --global alias.spush 'submodule foreach git push';
 git config --global alias.scheckout 'submodule foreach git checkout';
 git config --global alias.sad 'submodule foreach git add -A';
-git config --global alias.scommit 'submodule foreach git commit';
 git config --global alias.spull 'submodule foreach git pull';
 
 # Creating a .gitignore file
