@@ -13,5 +13,5 @@ This repository contains scripts that
 Clone and run the `setup` excutable file.
 
 #### TODO
-* Delete sXXX's because it's impossible to run `sXXX || true` or create an ellefant solution which would save sXXX's.
+* Delete sXXX's because it's impossible to run `sXXX || true` or create an ellegant solution which would save sXXX's.
 * Create an Android Mercurial ignore file by modifying ther received Android.gitignore.
