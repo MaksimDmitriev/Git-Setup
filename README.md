@@ -9,7 +9,7 @@ The `setup` script
   
   * initialezes Git and Mercurial aliases,
   * copies global Git and Mercurial ignore files to the user's home directory,
-  * set Git and Mercurial user name and e-mail address.
+  * sets Git and Mercurial user name and e-mail address.
 
 #### How to use
 
