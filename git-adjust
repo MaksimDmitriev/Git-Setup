@@ -7,14 +7,6 @@ git config --global user.email $USER_EMAIL;
 # Archive the last snapshot
 git config --global alias.last-archive '!sh git-last-archive';
 
-# Aliases for submodules
-git config --global alias.sdiff 'submodule foreach git diff';
-git config --global alias.sbranch 'submodule foreach git branch';
-git config --global alias.subst 'submodule foreach git status';
-git config --global alias.scheckout 'submodule foreach git checkout';
-git config --global alias.sad 'submodule foreach git add -A';
-git config --global alias.spull 'submodule foreach git pull';
-
 # Creating a .gitignore file
 git config --global core.excludesfile ~/$GIT_IGNORE;
 
