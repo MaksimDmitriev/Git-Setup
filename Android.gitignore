@@ -24,3 +24,5 @@ proguard/
 
 # The *.iml files
 *.iml
+
+.idea/
